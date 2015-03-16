@@ -16,6 +16,8 @@ RUN gem install \
   rdiscount \
   rouge
 
+RUN gem install therubyracer
+
 VOLUME /src
 EXPOSE 4000
 
