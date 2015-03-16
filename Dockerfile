@@ -1,25 +1,12 @@
-FROM ruby:2.1
-MAINTAINER i@shanhh.com
+FROM debian:wheezy
+MAINTAINER Dan Shan "i@shanhh.com"
 
-RUN apt-get update \
-  && apt-get install -y \
-    node \
-    python-pygments \
-  && apt-get clean \
-  && rm -rf /var/lib/apt/lists/
+ENV DEBIAN_FRONTEND noninteractive
 
-RUN gem install \
-  github-pages \
-  jekyll \
-  jekyll-redirect-from \
-  kramdown \
-  rdiscount \
-  rouge
+ADD install.sh install.sh
+RUN chmod +x install.sh && ./install.sh && rm install.sh
 
-RUN gem install therubyracer
-
-VOLUME /src
 EXPOSE 4000
-
+VOLUME ["/src"]
 WORKDIR /src
-ENTRYPOINT ["jekyll"]
+CMD ["jekyll", "serve", "--host=0.0.0.0", "--watch"]
