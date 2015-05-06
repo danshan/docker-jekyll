@@ -7,6 +7,7 @@ category: Tech
 tags: [git, svn, linux]
 ---
 git没有类似svn中的'svn info'功能, 自己写一个脚本来实现这样的功能:
+
 {% highlight bash %}
 #!/bin/sh
 
