@@ -3,8 +3,11 @@ layout: post
 title: 使用Tapir实现jekyll的站内搜索功能
 date: 2012-11-16 22:35
 description: "要在jekyll搭建的静态网站中实现站内搜索, 网上给出的解决方案基本都是**google custom search**, 但是这个方案不但有广告, 想修改css的时候又非常的复杂, 难以下手. 下面提供另一种非常简便的站内搜索解决方案--**Tapir**"
-category: Tech
 tags: [jekyll, tapir, search, rss, lucene, jquery]
+image:
+  feature: abstract-7.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 要在jekyll搭建的静态网站中实现站内搜索, 网上给出的解决方案基本都是**google custom search**, 但是这个方案不但有广告, 想修改css的时候又非常的复杂, 难以下手. 下面提供另一种非常简便的站内搜索解决方案--[Tapir](http://tapirgo.com/).

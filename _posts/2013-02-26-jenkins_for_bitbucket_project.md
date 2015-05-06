@@ -3,8 +3,11 @@ layout: post
 title: 使用 jenkins 对 bitbucket 上的私人项目作持续集成
 date: 2013-02-26 17:27
 description: "本文实现了使用个人架设的 jenkins 服务器对的 bitbucket 中的私人项目作持续集成, 项目使用 git 作版本控制, maven 作构建管理"
-category: Tech
 tags: [jenkins, bitbucket, maven, git]
+image:
+  feature: abstract-7.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 我有几个放置在 [Bitbucket](https://bitbucket.org/) 上的私人项目, 以及一台放置在香港的 [Linode](http://www.linode.com/) vps, 想在这台 linode 上部署一个 [jenkins](http://jenkins-ci.org/) 服务, 实现对 bitbucket 上的这些项目作持续集成. 下面来说流程, 基于目前最新的1.502版本.
 

@@ -3,8 +3,11 @@ layout: post
 title: log4j按日期输出日志的同时限制保存的个数
 date: 2010-11-23 15:35
 description: "log4j是java项目中最常用的log扩展, 有时我们需要log4j智能的将每日的日志进行归档, 当时不需要太过久远的log日志. 这个时候我们可以通过自定义Appender来限制log的最大保存个数."
-category: Tech
 tags: [java, log4j]
+image:
+  feature: abstract-2.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 Appender为日志输出目的地, log4j已经提供了非常丰富的Appender用以满足不同的需求:

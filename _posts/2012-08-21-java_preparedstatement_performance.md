@@ -7,8 +7,11 @@ description: "今天研究了一下Java中**PreparedStatement**的批处理能�
 jdk1.6.0_21 + Mysql 5.1<br/>
 Core 2 Duo T5470 (1.60GHz) + 3G内存<br/>
 测试的是实现最简单的插入."
-category: Tech
 tags: [mysql, java]
+image:
+  feature: abstract-10.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 今天研究了一下Java中**PreparedStatement**的批处理能力.

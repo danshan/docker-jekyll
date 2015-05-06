@@ -3,8 +3,11 @@ layout: post
 title: 解决使用BlackberryDesktopManager同步Outlook时崩溃问题
 date: 2012-11-29 13:35
 description: "通过**Blackberry Desktop Manager**将blackberry和**Outlook**同步的时候, 100%会在同步时直接崩溃. 经过反复测试和网上资料的搜集, fix了这个问题."
-category: BlackBerry
 tags: [desktop, blackberry, outlook, synchronization]
+image:
+  feature: abstract-11.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 通过**Blackberry Desktop Manager**将blackberry和**Outlook**同步的时候, 100%会在同步时直接崩溃. 经过反复测试和网上资料的搜集, fix了这个问题.

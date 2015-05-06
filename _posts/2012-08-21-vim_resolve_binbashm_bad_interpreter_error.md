@@ -5,8 +5,11 @@ date: 2012-08-21 14:50
 description: "可以有很多种办法看这个文件是DOS格式的还是UNIX格式的, 还是MAC格式的. 比如:<br/>
 `vim filename`<br/>
 然后用命令`:set ff?`可以看到dos或unix的字样."
-category: Vim
 tags: [vim, sed, linux]
+image:
+  feature: abstract-11.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 可能是你的脚本文件是DOS格式的, 即每一行的行尾以**\r\n**来标识, 其ASCII码分别是_0x0D_, _0x0A_. 而Unix只有**\n**.

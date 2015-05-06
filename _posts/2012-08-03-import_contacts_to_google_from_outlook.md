@@ -5,8 +5,11 @@ date: 2012-08-03 17:15
 description: "现在Android平台的手机非常流行, 很多人都选择了功过google帐号来同步和管理联系人.<br/>
 手机上对联系人管理效率非常的低, 在web上管理速度又很慢.<br/>
 我下面说说我自己的解决方案."
-category: Tech
 tags: [outlook, vba, goolge, gmail]
+image:
+  feature: abstract-7.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 现在Android平台的手机非常流行, 很多人都选择了功过google帐号来同步和管理联系人.

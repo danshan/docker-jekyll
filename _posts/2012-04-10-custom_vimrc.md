@@ -3,8 +3,11 @@ layout: post
 title: 个人修改的.vimrc配置文件
 date: 2012-04-10 15:35
 description: "根据网上盛传的[史上最强的vimrc文件](http://amix.dk/vim/vimrc.html)改编而来, 插入了很多vim7.2的官方文档, 对于刚刚接触vim的用户, 可以当成是教材来理解一下了"
-category: Vim
 tags: [vim]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 根据网上盛传的[史上最强的vimrc文件](http://amix.dk/vim/vimrc.html)改编而来, 插入了很多vim7.2的官方文档, 对于刚刚接触vim的用户, 可以当成是教材来理解一下了

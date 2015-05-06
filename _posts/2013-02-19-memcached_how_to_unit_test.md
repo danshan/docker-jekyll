@@ -3,8 +3,11 @@ layout: post
 title: 实现在单元测试中验证 memcached 服务 
 date: 2013-02-11 18:27
 description: "在实现一个服务器项目时, 使用了 memcache 服务, 下面需要在 junit 单元测试中实现对 memcache 服务的验证工作"
-category: Tech
 tags: [junit, java, memcached]
+image:
+  feature: abstract-6.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 在实现一个服务器项目时, 使用了 memcached 服务, 下面需要在 junit 单元测试中实现对 memcache 服务的验证工作.
 

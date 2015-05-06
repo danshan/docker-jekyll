@@ -3,8 +3,11 @@ layout: post
 title: 为 git 实现 'svn info' 的功能
 date: 2012-10-15 14:27
 description: "git没有类似svn中的`svn info`功能, 由于一些特殊的需求, 需要自己写一个脚本来实现这样的功能"
-category: Tech
 tags: [git, svn, linux]
+image:
+  feature: abstract-12.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 git没有类似svn中的'svn info'功能, 自己写一个脚本来实现这样的功能:
 

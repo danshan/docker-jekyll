@@ -4,8 +4,11 @@ title: jsp解决session过期时写入数据库操作
 date: 2012-11-27 14:00
 description: "背景如下: <br/>
 我在做一个系统的时候希望实现当用户点击jsp页面上的注销按钮时实现在数据库中保存用户注销的时间. 另外如果用户没有正常退出, 则在session超时时自动记录超时时候的时间."
-category: Tech
 tags: [java, session, database, j2ee]
+image:
+  feature: abstract-9.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 背景如下: 

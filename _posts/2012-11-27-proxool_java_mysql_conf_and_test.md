@@ -3,8 +3,11 @@ layout: post
 title: proxool 0.8.3使用java搭建MySql连接池的配置和测试
 date: 2012-11-27 15:00
 description: "在企业开发的时候, 很多情况都会使用数据库连接, 下文将介绍proxool连接池的使用和配置以及测试方案."
-category: Tech
 tags: [java, proxool, database, j2ee]
+image:
+  feature: abstract-10.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 在企业开发的时候, 很多情况都会使用数据库连接, 下文将介绍proxool连接池的使用和配置以及测试方案.

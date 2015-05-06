@@ -3,8 +3,11 @@ layout: post
 title: 通过 spring 的 EL 表达式解决不同环境的部署参数配置问题
 date: 2013-06-28 16:20
 description: "在我们一个真实项目中, 用到了 QA/DEV/TEST/PRODUCT 四套部署环境. 前三套类似, 只是在 PRODUCT 环境中, 公司的运维规范是将配置信息写到 linux 系统的环境变量中, 而这个配置信息的值是不能公开给我们的开发人员的. 这就需要我们在项目的部署问题上支持多种环境的配置方式."
-category: Tech
 tags: [spring, el]
+image:
+  feature: abstract-10.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 在我们一个真实项目中, 用到了 QA/DEV/TEST/PRODUCT 四套部署环境. 前三套类似, 只是在 PRODUCT 环境中, 公司的运维规范是将配置信息写到 linux 系统的环境变量中, 而这个配置信息的值是不能公开给我们的开发人员的. 这就需要我们在项目的部署问题上支持多种环境的配置方式.
 

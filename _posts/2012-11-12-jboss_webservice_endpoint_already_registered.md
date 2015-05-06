@@ -3,8 +3,11 @@ layout: post
 title: 解决Jboss报出 URL pattern /Coordinator is already registered 错误
 date: 2012-11-12 13:35
 description: "部分web项目在jboss7.0.x工作正常, 但是迁移到7.1的时候报出**URL pattern /Coordinator is already registered**"
-category: Tech
 tags: [jboss, webservice]
+image:
+  feature: abstract-5.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 部分web项目在jboss7.0.x工作正常, 但是迁移到7.1的时候报出**URL pattern /Coordinator is already registered**, 报错信息如下:

@@ -3,8 +3,11 @@ layout: post
 title: Java循环遍历不定长数组链表
 date: 2012-08-21 14:45
 description: "功能描述一个链表中保存多个不同长度的数组, 根据一个索引值, 能取到对应的元素所在的数组下标"
-category: Tech
 tag: [java]
+image:
+  feature: abstract-9.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 功能描述
 一个链表中保存多个不同长度的数组, 根据一个索引值, 能取到对应的元素所在的数组下标

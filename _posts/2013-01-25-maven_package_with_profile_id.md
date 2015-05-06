@@ -3,8 +3,11 @@ layout: post
 title: Maven 根据不同的 profile 对不同的构建环境进行配置
 date: 2013-01-25 19:27
 description: "通过 maven 管理项目的时候, 非常头疼的问题之一就是可能存在不同的构建环境, 比如开发环境, 单元测试环境, QA环境, 部署环境等等. 最好的方案是通过传入一个参数来指定一套完整的配置环境."
-category: Tech
 tags: [j2ee, hibernate, maven, spring, hsqldb]
+image:
+  feature: abstract-1.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 我在使用 maven 管理项目的时候, 非常头疼的问题之一就是可能存在不同的构建环境, 你不得不去为这些环境去做一些定制化的配置. 比如开发环境, QA环境, 生产环境中 log4j 生成的日志 level 不同, 数据库使用url, 用户名, 密码不同, 甚至可能在开发和生产环境中使用的是 MySql, 而单元测试和CI环境使用却是基于内存的 HSqlDB. 一直在考虑如果能通过添加一个配置参数来切换不同的构建方案就好了.
 

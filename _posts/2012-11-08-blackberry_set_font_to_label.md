@@ -3,8 +3,11 @@ layout: post
 title: BlackBerry中设置LabelFiled字体
 date: 2012-11-08 12:35
 description: "BlackBerry中为`LabelField`设置字体"
-category: BlackBerry
 tags: [blackberry, ui, font]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 可以直接使用`LabelField.setFont`, 下面提供两种例子去设置font.

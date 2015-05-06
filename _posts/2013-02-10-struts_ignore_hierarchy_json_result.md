@@ -3,8 +3,11 @@ layout: post
 title: Struts 返回 json 格式时缺少父类属性问题解决
 date: 2013-02-10 13:27
 description: "通过 struts 搭配 json 插件, 直接返回 json 对象可以大大简化程序对返回格式进行手动格式化的操作, 然而, 也碰到一个问题, 如果 result 中用于生成 json 格式的对象如果继承了某个对象, 输出的 json 格式中并不会包含父类的属性."
-category: Tech
 tags: [struts, json]
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 通过 struts 搭配 json 插件, 直接返回 json 对象可以大大简化程序对返回格式进行手动格式化的操作, 然而, 也碰到一个问题, 如果 result 中用于生成 json 格式的对象如果继承了某个对象, 输出的 json 格式中并不会包含父类的属性.
 

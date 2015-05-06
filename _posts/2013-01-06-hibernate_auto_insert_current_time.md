@@ -3,8 +3,11 @@ layout: post
 title: Hibernate 配置写入数据库时自动设置系统时间
 date: 2013-01-06 11:27
 description: "通过配置 hbm.xml 文件使 hibernate 写入数据库时自动生成写入时的系统时间, 用于需要记录注册时间的场合, 如'用户注册时间'等"
-category: Tech
 tags: [j2ee, hibernate]
+image:
+  feature: abstract-12.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 如果类的一个特定属性有着数据库生成的值, 通常在第一次插入实体行的时候. 典型的数据库生成的值是创建的时间戳, 还有其它默认值等.
 

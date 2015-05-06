@@ -3,8 +3,11 @@ layout: post
 title: 在 Spring 托管的项目中引入 h2 database 作单元测试
 date: 2013-08-24 16:20
 description: "为了让单元测试尽可能的脱离开发环境种种依赖, 最好的办法是在单元测试的时候引入内存数据库."
-category: Tech
 tags: [spring, testng, h2]
+image:
+  feature: abstract-11.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 为了让单元测试尽可能的脱离开发环境种种依赖, 最好的办法是在单元测试的时候引入内存数据库.
 

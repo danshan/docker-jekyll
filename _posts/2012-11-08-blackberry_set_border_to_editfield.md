@@ -3,8 +3,11 @@ layout: post
 title: BlackBerry中设置EditFiled的边框
 date: 2012-11-08 14:35
 description: "BlackBerry中为`EditField`设置边框"
-category: BlackBerry
 tags: [blackberry, ui, border]
+image:
+  feature: abstract-2.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 对于Rom版本在4.6及以上时, 使用下面的方法, 参考[Blackberry JDE API](http://www.blackberry.com/developers/docs/4.6.0api/index.html):

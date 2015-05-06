@@ -3,8 +3,11 @@ layout: post
 title: 关于 Redis 中的 Expire 使用时的一些注意事项
 date: 2013-04-08 10:27
 description: "有时候处理一些特殊的 hibernate 映射关系, 需要对某些映射的 VO 对象中过滤一些数据库中并不存在的属性."
-category: Tech
 tags: [hibernate]
+image:
+  feature: abstract-9.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 在公司处理一个 php 的项目, 要用 java 重新实现底层的逻辑功能. 碰到这样一个很蛋疼的情况:
 

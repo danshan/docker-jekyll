@@ -3,8 +3,11 @@ layout: post
 title: 解决 maven 执行 test 可以跑通而 emma 失败问题
 date: 2013-02-11 18:27
 description: "在一个项目里发现引用了 JCaptcha 包以后, 原有的`mvn emma:emma`执行就失败了, 折腾了好久才解决, 下面来说说解决思路"
-category: Tech
 tags: [spring, jcaptcha, maven, emma]
+image:
+  feature: abstract-5.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 在一个项目里发现引用了 JCaptcha 包以后, 执行`mvn test`一切正常, 而原有的`mvn emma:emma`执行就失败了, 抛出下面的异常:
 

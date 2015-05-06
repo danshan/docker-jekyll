@@ -3,8 +3,11 @@ layout: post
 title: jekyll实现页面键盘快捷键
 date: 2012-11-09 10:35
 description: "在jekyll生成的文章页面加上了键盘快捷键导航, `左方向键`或`H`导航到上一篇文章, `右方向键`或`L`导航到下一篇."
-category: Tech
 tags: [javascript, jekyll, jquery]
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 在jekyll生成的文章页面加上了键盘快捷键导航, 左方向键浏览上一篇文章, 右方向键导航到下一篇.

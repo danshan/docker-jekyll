@@ -3,8 +3,11 @@ layout: post
 title: 使用 javamail 发送 SSL 加密邮件
 date: 2013-02-10 20:37
 description: "使用javamail发送邮件, 同时解决 SSL 证书问题. 用以实现服务器直接给用户发送邮件功能"
-category: Tech
 tags: [java, mail, ssl]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 在实现一个用户 passport 系统或者其他大型系统的时候, 常常需要使用给用户发送邮件的功能, 下面介绍整套解决方案.
 

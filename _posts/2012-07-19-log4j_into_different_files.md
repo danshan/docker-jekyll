@@ -3,8 +3,11 @@ layout: post
 title: log4j不同业务逻辑输出到不同的log文件
 date: 2012-07-19 17:35
 description: 场景设定为, A和B两个业务模块, 分别运行于不同的JVM环境下. A和B都要调用C模块, 现在需要实现的是, C模块根据不同的运行环境, 日志输出到不同的log文件.
-category: Tech
 tags: [java, log4j]
+image:
+  feature: abstract-4.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 比如两个业务逻辑模块: A和B, 分别都会调用模块C, 分别处于不同的JVM下, 现在需要实现的是, 不同的业务输出到不同的日志文件.

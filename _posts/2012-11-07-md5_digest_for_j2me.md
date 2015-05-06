@@ -5,8 +5,11 @@ date: 2012-11-07 17:35
 description: "原生实现MD5算法的类, 主要用于一些特定的环境, 比如基于j2me的开发.<br/>
 提供一个静态的函数toMD5()供调用.<br/>
 还提供一个getMD5ofStr()函数生成一个MD5加密串."
-category: Tech
 tags: [java, j2me, md5]
+image:
+  feature: abstract-1.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 原生实现MD5算法的类, 主要用于一些特定的环境, 比如基于j2me的开发.

@@ -3,8 +3,11 @@ layout: post
 title: Maven打包非web项目时包含第三方jar包
 date: 2012-07-30 17:49
 description: 非web项目中, 默认使用`maven install`时, 并不会将项目依赖的jar包打包放进项目中, 需要对pom.xml做如下修改, 使得target目录下包含完整依赖关系的可部署文件夹.
-category: Tech
 tags: [maven, java]
+image:
+  feature: abstract-6.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 非web项目中, 默认使用`maven install`时, 并不会将项目依赖的jar包打包放进项目中, 需要对pom.xml做如下修改:

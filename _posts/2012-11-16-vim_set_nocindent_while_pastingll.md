@@ -3,8 +3,11 @@ layout: post
 title: 在vim做粘贴操作时禁用自动缩进和智能缩进
 date: 2012-11-16 11:35
 description: "vim的自动缩进和智能缩进功能给在vim下做开发的程序员提供了非常大的便利, 但在做代码粘贴的时候, 如果被粘贴的文字中带有tab, 整个粘贴后的格式会乱掉, 需要开启一些特殊设置."
-category: Vim
 tags: [vim, paste, indent]
+image:
+  feature: abstract-8.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 vim的自动缩进和智能缩进功能给在vim下做开发的程序员提供了非常大的便利, 但在做代码粘贴的时候, 如果被粘贴的文字中带有tab, 整个粘贴后的格式会乱掉.
