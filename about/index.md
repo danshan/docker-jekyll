@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: About Dan
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
@@ -9,26 +9,45 @@ comments: false
 date: 2014-12-24
 ---
 
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
+## Senior Software Engineer @ 大众点评
 
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
+<figure class="third">
+	<a href="http://www.linkedin.com/company/dianping?trk=mini-profile"><img src="http://m.c.lnkd.licdn.com/media/p/2/000/046/220/07a8d93.png" alt=""></a>
+</figure>
 
-## What HPSTR brings to the table:
+May 2014 – Present 上海
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Built-in support for Sass courtesy of Jekyll 2.x.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
+1. 结婚/亲子业务的商户后台开发
+2. 结婚/亲子业务的运营后台开发
+3. 结婚/亲子业务的商户页, 产品页等网站开发
+4. 移动端接口以及ios客户端程序开发
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
+---
 
-[^1]: Example: *domain.com/category-name/post-title*
+## Software Engineer @ 唯品会
+
+<figure class="third">
+	<a href="http://www.linkedin.com/company/guangzhou-vipshop-information-technology-co-ltd?trk=mini-profile"><img src="http://m.c.lnkd.licdn.com/media/p/6/005/070/3a2/1ed31ec.png" alt=""></a>
+</figure>
+
+December 2012 – April 2014 上海
+
+1. 和用户相关的绝大部分开发工作, 涉及 passport, 用户中心, 相关接口, 后台网站......
+2. 和公司一起改善工程师文化, 以及提高整个公司代码质量.
+
+---
+
+## Java Engineer @ PPTV
+
+<figure class="third">
+	<a href="http://www.linkedin.com/company/pplive?trk=mini-profile"><img src="http://m.c.lnkd.licdn.com/media/p/1/000/0eb/34e/19da66b.png" alt=""></a>
+</figure>
+
+February 2010 – August 2012 上海
+
+1. 片库管理后台开发
+2. PPTV对外推广接口开发
+3. PPTV对web, pc, mobile, box等各平台接口
+4. Drag中心开发
+5. 搜索网站开发
+6. 爬虫系统开发
