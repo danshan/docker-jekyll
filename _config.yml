@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Dan's Workspace
+description:      .
 disqus_shortname: hpstrtheme
 reading_time:     true
 words_per_minute: 200
@@ -9,12 +9,12 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Dan
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "未来的家庭, 除了一扇窗户, 还有一只企鹅."
+  email:          i@shanhh.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        shanhh
   facebook:       
   github:         
   stackexchange:  
@@ -23,7 +23,7 @@ owner:
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    +弘昊
 
 # Background image to be tiled on all pages
 background: 
@@ -35,7 +35,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Shanghai
 future:      true
 highlighter: pygments
 markdown:    kramdown
