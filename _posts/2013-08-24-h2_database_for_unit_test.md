@@ -5,7 +5,7 @@ date: 2013-08-24 16:20
 description: "为了让单元测试尽可能的脱离开发环境种种依赖, 最好的办法是在单元测试的时候引入内存数据库."
 tags: [spring, testng, h2]
 image:
-  feature: abstract-11.jpg
+  feature: abstract-10.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---

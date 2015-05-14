@@ -396,6 +396,8 @@ header .entry-meta {
 	}
 	img {
 		@include border-radius(3px,0,0,3px); // round image corners
+		height: 200px;
+		width: 800px;
 	}
 }
 
