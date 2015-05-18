@@ -61,3 +61,15 @@
 {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/images/{{ background }}{% endcapture %}{% endunless %}
 <style type="text/css">body {background-image:url({{ background }});}</style>
 {% endif %}
+
+<!-- baidu -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?739a3592daa7c526757fc4f9c6a94e4d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- baidu -->
