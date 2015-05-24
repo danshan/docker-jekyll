@@ -22,8 +22,8 @@ Apply the `half` class like so to display two images side by side that share the
 
 {% highlight html %}
 <figure class="half">
-	<img src="/images/image-filename-1.jpg" alt="">
-	<img src="/images/image-filename-2.jpg" alt="">
+	<img src="/assets/images/image-filename-1.jpg" alt="">
+	<img src="/assets/images/image-filename-2.jpg" alt="">
 	<figcaption>Caption describing these two images.</figcaption>
 </figure>
 {% endhighlight %}
