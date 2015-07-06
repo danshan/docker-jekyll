@@ -30,11 +30,11 @@ outlook 2010默认是隐藏了这个功能的, 我们需要开启它.
 
 outlook菜单栏 -&gt; 文件 -&gt; 选项, 打开**outlook选项**, 在**自定义功能区**的**主选项卡**中勾选**开发工具**.
 
-[![outlook选项](/assets/post/2012/08/outlook_1-300x239.jpg)](/assets/post/2012/08/outlook_1.jpg)
+[![outlook选项]({{ site.cdn }}/files/2012/08/outlook_1-300x239.jpg)]({{ site.cdn }}/files/2012/08/outlook_1.jpg)
 
 这个时候在主选项卡中应该可以看到'开发工具'选项卡了.
 
-[![outlook选项卡](/assets/post/2012/08/outlook_2-300x117.jpg)](/assets/post/2012/08/outlook_2.jpg)
+[![outlook选项卡]({{ site.cdn }}/files/2012/08/outlook_2-300x117.jpg)]({{ site.cdn }}/files/2012/08/outlook_2.jpg)
 
 ## **outlook批量导出联系人** ##
 
@@ -42,7 +42,7 @@ outlook菜单栏 -&gt; 文件 -&gt; 选项, 打开**outlook选项**, 在**自定
 
 2\. 在**开发工具** -> **宏** 中创建一个宏, `export`.
 
-[![创建宏export](/assets/post/2012/08/outlook_3-300x206.jpg)](/assets/post/2012/08/outlook_3.jpg)
+[![创建宏export]({{ site.cdn }}/files/2012/08/outlook_3-300x206.jpg)]({{ site.cdn }}/files/2012/08/outlook_3.jpg)
 
 3\. 填入代码
 
@@ -66,7 +66,7 @@ End Sub
 
 4\. 执行这段脚本.
 
-[![执行vba脚本](/assets/post/2012/08/outlook_4-300x141.jpg)](/assets/post/2012/08/outlook_4.jpg)
+[![执行vba脚本]({{ site.cdn }}/files/2012/08/outlook_4-300x141.jpg)]({{ site.cdn }}/files/2012/08/outlook_4.jpg)
 
 网上也有一些教程提供了类似的代码, 无非都是用联系人名称作为导出到的vcf文件名, 我不推荐这样做, 因为谁也难保自己的联系人里会不会有重名的现象, 而且我们后期的目标是批量上传这批文件, 所以对这些文件的名称没有要求. 我直接用递增的数字作为文件名, 以保证每个联系人都能准确输出.
 
@@ -87,7 +87,7 @@ End Sub
 {% endhighlight %}
 这一步执行了将所有vcf文件合并到all.vcf的操作, 下面就可以一次性导入google联系人了.
 
-[![google导入vcf联系人](/assets/post/2012/08/outlook_6-249x300.jpg)](/assets/post/2012/08/outlook_6.jpg)
+[![google导入vcf联系人]({{ site.cdn }}/files/2012/08/outlook_6-249x300.jpg)]({{ site.cdn }}/files/2012/08/outlook_6.jpg)
 
 ## **关于google导出和outlook导入联系人** ##
 

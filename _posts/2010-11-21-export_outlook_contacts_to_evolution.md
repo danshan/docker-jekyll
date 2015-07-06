@@ -11,7 +11,7 @@ image:
 
 ---
 
-先参考[outlook联系人批量导入google](/blog/2012/08/03/import_contacts_to_google_from_outlook/), 将outlook联系人到windows下一个指定的文件夹中, **注意导出后先不要编辑这些文件**.
+先参考[outlook联系人批量导入google](/import_contacts_to_google_from_outlook/), 将outlook联系人到windows下一个指定的文件夹中, **注意导出后先不要编辑这些文件**.
 
 把整个文件夹复制到Linux中的一个文件夹, 并通过shell进入该文件夹. 执行:
 

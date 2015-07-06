@@ -19,7 +19,7 @@ image:
 
 通过左上角进入系统配置菜单: _Jenkins_ > _Manage Jenkins_ > _Configure Global Security_, 勾选 _Enable security_, 下面_Security Realm_支持了四种安全策略, 我们选择最简单的 _Jenkins's own user database_, 但不要勾选下面的 _Allow users to sign up_.
 
-![manage jenkins](/assets/post/2013/02/manage_jenkins.png)
+![manage jenkins]({{ site.cdn }}/files/2013/02/manage_jenkins.png)
 
 在下面的 _Authorization_ 中选择 _Project-based Matrix Authorization Strategy_, 以获得最灵活的权限控制功能. 配置完成后, 把jenkins重启, 这个时候会提示要求输入用户名和密码, 由于是第一次登录, 直接点击左上角 _jenkins_, 这里提示了注册功能, 注册唯一的管理员用户. 注册完成后就能登录了, 之后可以再次进入刚刚的 _Configure Global Security_ 配置用户权限.
 
@@ -37,7 +37,7 @@ image:
 $ ssh-keygen -t rsa
 {% endhighlight %}
 
-![ssh-keygen](/assets/post/2013/02/ssh_keygen.png)
+![ssh-keygen]({{ site.cdn }}/files/2013/02/ssh_keygen.png)
 
 默认生成的key会保存在 _~/.ssh/id_rsa.pub_, 我们把内容 cat 出来并复制.
 
@@ -49,12 +49,11 @@ $ cat ~/.ssh/id_rsa.pub
 
 保存后进入 bitbucket 的项目主页, 查看项目的 SSH 地址, 点击 HTTPS 下拉选择 SSH, 地址格式为 git@bitbucket.org:<user_name>/<project_name>.git, 把这个地址填到 jenkins 中项目配置页的 Git Repositories 里. _Branches to build_ 可以填 master, 不填则默认是最后 push 的 branch.
 
-![ssh-keygen](/assets/post/2013/02/bitbucket_ssh.png)
+![ssh-keygen]({{ site.cdn }}/files/2013/02/bitbucket_ssh.png)
 
 下面来配置顶起 build 的周期, 我选择的做法是勾选 _Build Triggers_ 的 _Poll SCM_ , 填入 `* * * * *`, 这样让 jenkins 每分钟检查一次 bitbucket, 如果有新的修改, 则自动 build.
 
-![ssh-keygen](/assets/post/2013/02/jenkins_poll_scm.png)
+![ssh-keygen]({{ site.cdn }}/files/2013/02/jenkins_poll_scm.png)
 
 到此, 就完成了所有关于 jenkins 的配置, 点击左边的 **Build Now**试试看吧.
-
-![ssh-keygen](/assets/post/2013/02/jenkins_build_now.png)
+![ssh-keygen]({{ site.cdn }}/files/2013/02/jenkins_build_now.png)

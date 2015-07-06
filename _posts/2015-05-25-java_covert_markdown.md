@@ -16,7 +16,7 @@ image:
 
 之前的邮件模板是
 
-<img src="/images/2015/05/md-01.png">
+<img src="{{ site.cdn }}/files/2015/05/md-01.png">
 
 可见非常的丑陋.
 
@@ -24,16 +24,16 @@ image:
 
 第一步是解决 java 渲染 markdown 语法的问题, 这个好办, 我用的这个库 [markdownpapers-doxia-module](http://markdown.tautua.org/doxia-module.html), maven 的 repo 在[这里](http://mvnrepository.com/artifact/org.tautua.markdownpapers/markdownpapers-doxia-module).
 
-接下来是解决生成好了的 html 如何美化. 当然你可以自己去写 css, 我前端功底太差, 实在搞不定. 我是从 (MOU)[http://25.io/mou/] 这个 markdown 编辑器中导出了一份 css 文件(这里推荐一下这个软件, 真的非常好用, 如果能后同步到 evernote 就更好了).
+接下来是解决生成好了的 html 如何美化. 当然你可以自己去写 css, 我前端功底太差, 实在搞不定. 我是从 [MOU][http://25.io/mou/] 这个 markdown 编辑器中导出了一份 css 文件(这里推荐一下这个软件, 真的非常好用, 如果能后同步到 evernote 就更好了).
 
-<img src="/images/2015/05/md-02.png">
+<img src="{{ site.cdn }}/files/2015/05/md-02.png">
 
 代码这里就不贴了, 需要的自己下载: 
 
-* [Clearness Dark.css](/files/2015/05/Clearness%20Dark.css) 
-* [Clearness.css](/files/2015/05/Clearness.css)
-* [CGitHub.css](/files/2015/05/GitHub.css)
-* [GitHub2.css](/files/2015/05/GitHub2.css)
+* [Clearness Dark.css]({{ site.cdn }}/files/2015/05/Clearness%20Dark.css) 
+* [Clearness.css]({{ site.cdn }}/files/2015/05/Clearness.css)
+* [CGitHub.css]({{ site.cdn }}/files/2015/05/GitHub.css)
+* [GitHub2.css]({{ site.cdn }}/files/2015/05/GitHub2.css)
 
 我处理渲染的逻辑是, 首先把需要提交的数据全部渲染到一个 markdown 文件, 然后再把这个 markdown 文件渲染到 email 正文中. 那么这里需要自己去设计两个文件:
 

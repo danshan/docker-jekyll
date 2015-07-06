@@ -114,7 +114,7 @@ image:
 })(jQuery);
 {% endhighlight %}
 
-<a href="/assets/post/2012/11/jquery-tapir.min.js.zip" class="btn btn-info"><i class="icon-download icon-white"></i> 下载 jquery-tapir.min.js.zip</a>
+<a href="{{ site.cdn }}/files/2012/11/jquery-tapir.min.js.zip" class="btn btn-info"><i class="icon-download icon-white"></i> 下载 jquery-tapir.min.js.zip</a>
 
 由于search.html是在加载时直接执行搜索, 所以这两个js文件必须在header中加载.
 

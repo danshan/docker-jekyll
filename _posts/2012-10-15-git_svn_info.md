@@ -74,4 +74,4 @@ fi
 
     Type 'git log' for more commits, or 'git show' for full commit details.
 
-<a href="/assets/post/2012/10/gitinfo.zip" class="btn btn-info"><i class="icon-download icon-white"></i> 下载 gitinfo.zip</a>
+<a href="{{ site.cdn }}/files/2012/10/gitinfo.zip" class="btn btn-info"><i class="icon-download icon-white"></i> 下载 gitinfo.zip</a>
