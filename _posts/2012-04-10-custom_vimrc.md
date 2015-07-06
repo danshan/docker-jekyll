@@ -1392,4 +1392,4 @@ map <F3> :Explore<CR>
 ino <C-v> <esc>:set paste<cr>mui<C-R>+<esc>mv'uV'v=:set nopaste<cr>
 {% endhighlight %}
 
-<a href="/assets/post/2012/04/vimrc.zip" class="btn btn-info"><i class="icon-download icon-white"></i> 下载 vimrc.zip</a>
+<a href="{{ site.cdn }}/assets/post/2012/04/vimrc.zip" class="btn btn-info"><i class="icon-download icon-white"></i> 下载 vimrc.zip</a>
