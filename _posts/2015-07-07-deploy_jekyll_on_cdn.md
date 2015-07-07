@@ -24,19 +24,19 @@ image:
 
 这里我使用的是 [七牛云存储](http://www.qiniu.com/), 新注册的免费体验用户不限时间, 而且对于个人站长来说基本也够用.
 
-<img src="/files/2015/07/cdn-01.png">
+<img src="{{ site.cdn }}/files/2015/07/cdn-01.png">
 
 首先 [注册新用户](https://portal.qiniu.com/signup), 并验证邮箱后重新登录.
 
-<img src="/files/2015/07/cdn-02.png">
+<img src="{{ site.cdn }}/files/2015/07/cdn-02.png">
 
 之后创建一个空间, 为你的空间起一个名字, 需要全局唯一. 注意下这个空间一定要设置为公开访问的, 不然别人无法访问.
 
-<img src="/files/2015/07/cdn-03.png">
+<img src="{{ site.cdn }}/files/2015/07/cdn-03.png">
 
 在 空间设置 -> 域名设置 里对七牛的cdn域名进行修改和记录.
 
-<img src="/files/2015/07/cdn-04.png">
+<img src="{{ site.cdn }}/files/2015/07/cdn-04.png">
 
 然后就是把我们的静态资源文件上传到七牛空间上. 因为 Jekyll 生成的网站整个都是静态的, 所以理论上 可以把整个网站都放上去, 对于体验账号, 只可以上传富媒体文件, 也就是 图片/css/js 之类的, 也就够用了.
 
@@ -44,7 +44,7 @@ image:
 
 上传成功的以后就能在内容管理中就能看到刚刚静态资源文件, 上传会保持原本的目录结构, 方便我们做迁移.
 
-<img src="/files/2015/07/cdn-05.png">
+<img src="{{ site.cdn }}/files/2015/07/cdn-05.png">
 
 最后, 我们修改原有的资源访问地址, 全文搜索一下, 基本地址应该都在 assets 或者 images 这样的文件夹.
 
@@ -54,11 +54,10 @@ image:
 
 > cdn: "http://7xk6nq.com1.z0.glb.clouddn.com/blog"
 
-那么在全文就可以使用 \{\{ site.cdn \}\} 进行使用
-
+那么在全文就可以使用 \{\{ site.cdn \}\} 进行使用.
 
 # 其它 CDN 的解决方案
 
 前面说的也差不多了, 最后介绍一个七牛提供的 开放静态资源 CDN, 有兴趣的前端开发朋友可以去看看 [http://www.staticfile.org/](http://www.staticfile.org/)
 
-<img src="/files/2015/07/cdn-06.png">
+<img src="{{ site.cdn }}/files/2015/07/cdn-06.png">
