@@ -8,8 +8,6 @@ image:
   feature: abstract-3.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-  background: triangular.png
-
 ---
 
 部门要做一个简单的提测邮件模板, 取代每次提测时都要手动发邮件的功能, 我实现其中一部分文字渲染的功能. 通过 [markdown](http://daringfireball.net/projects/markdown/) 语法对提测内容进行格式化.
