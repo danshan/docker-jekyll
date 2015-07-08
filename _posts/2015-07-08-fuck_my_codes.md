@@ -10,31 +10,31 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
-<img src="/files/2015/07/fuckcode-01.jpg">
+<img src="{{ site.cdn }}/files/2015/07/fuckcode-01.jpg">
 
 这个是在pptv中定义变量的时候, 碰到英文捉急了...果然有人说开发中难度最大的地方就是在于定义变量.
 
 ---
 
-<img src="/files/2015/07/fuckcode-02.png">
+<img src="/{{ site.cdn }}files/2015/07/fuckcode-02.png">
 
 为了一个左侧导航的功能点是否放出来, 加入了一段非常恶心的代码.
 
 ---
 
-<img src="/files/2015/07/fuckcode-03.png">
+<img src="{{ site.cdn }}/files/2015/07/fuckcode-03.png">
 
 这个上下文有点长...不说了
 
 ---
 
-<img src="/files/2015/07/fuckcode-04.png">
+<img src="{{ site.cdn }}/files/2015/07/fuckcode-04.png">
 
 产品对于结婚的同城活动参与用户的一段硬逻辑.
 
 ---
 
-<img src="/files/2015/07/fuckcode-05.png">
+<img src="{{ site.cdn }}/files/2015/07/fuckcode-05.png">
 
 旅游婚纱是这边最特殊的模块...有很多吐槽的地方:
 
