@@ -16,7 +16,7 @@ image:
 
 ---
 
-<img src="{{ site.cdn }}files/2015/07/fuckcode-02.png">
+<img src="{{ site.cdn }}/files/2015/07/fuckcode-02.png">
 
 为了一个左侧导航的功能点是否放出来, 加入了一段非常恶心的代码.
 
