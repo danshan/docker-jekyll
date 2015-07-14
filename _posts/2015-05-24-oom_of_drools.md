@@ -20,7 +20,7 @@ image:
 
 接警后先上cat 确认问题, 并发现很多dpsf timeout 异常.
 
-<img src="{{ site.cdn }}/files/2015/05/drools-01.png">
+<img src="{{ site.cdn }}/files/2015/05/drools-01.png{{ site.img }}">
 
 这里存在两个疑点: 
 
@@ -44,11 +44,11 @@ cat wedding-mobileapi-web.access.log | grep -e "\s502\s" | wc -l
 
 于是先找运维dump一台服务器内存. 同时登录到zabbix去查看监控数据.
 
-<img src="{{ site.cdn }}/files/2015/05/drools-02.png">
+<img src="{{ site.cdn }}/files/2015/05/drools-02.png{{ site.img }}">
 
 看到 10:20 左右, 线程数暴增.
 
-<img src="{{ site.cdn }}/files/2015/05/drools-03.png">
+<img src="{{ site.cdn }}/files/2015/05/drools-03.png{{ site.img }}">
 
 Old Gen 也在相同时间点跑满了.
 
@@ -62,7 +62,7 @@ Old Gen 也在相同时间点跑满了.
 由于dump出来的内存有3.6G, 拖到本地需要一个多小时, 所以直接肉眼看.
 看到这样的代码:
 
-<img src="{{ site.cdn }}/files/2015/05/drools-04.png">
+<img src="{{ site.cdn }}/files/2015/05/drools-04.png{{ site.img }}">
 
 我突然想到drools 文档中的关于 StatefulKnowledgeSession 的使用的一句话, 于是重新查了一下:
 
@@ -70,17 +70,17 @@ Old Gen 也在相同时间点跑满了.
 
 好吧, 于是修改代码为
 
-<img src="{{ site.cdn }}/files/2015/05/drools-05.png">
+<img src="{{ site.cdn }}/files/2015/05/drools-05.png{{ site.img }}">
 
 15:00 先找了一台机器上线, 观察了5分钟, 没有啥异常出现, 于是全面上线.
 
-<img src="{{ site.cdn }}/files/2015/05/drools-06.png">
+<img src="{{ site.cdn }}/files/2015/05/drools-06.png{{ site.img }}">
 
 这是上线后的Old Gen, 其中14:00有个骤降, 是由于运维重启应用, 但是可以看重启后依然在飞速上涨. 15:00fix上线, 开始缓慢上涨, 基本与正常现象相同.
 
 16:00 @波总 完成 dump文件的分析:
 
-<img src="{{ site.cdn }}/files/2015/05/drools-07.png">
+<img src="{{ site.cdn }}/files/2015/05/drools-07.png{{ site.img }}">
 
 看到确实是statefulSession导致的泄露, 问题得到确认.
 

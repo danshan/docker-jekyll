@@ -14,7 +14,7 @@ image:
 
 之前的邮件模板是
 
-<img src="{{ site.cdn }}/files/2015/05/md-01.png">
+<img src="{{ site.cdn }}/files/2015/05/md-01.png{{ site.img }}">
 
 可见非常的丑陋.
 
@@ -24,7 +24,7 @@ image:
 
 接下来是解决生成好了的 html 如何美化. 当然你可以自己去写 css, 我前端功底太差, 实在搞不定. 我是从 [MOU][http://25.io/mou/] 这个 markdown 编辑器中导出了一份 css 文件(这里推荐一下这个软件, 真的非常好用, 如果能后同步到 evernote 就更好了).
 
-<img src="{{ site.cdn }}/files/2015/05/md-02.png">
+<img src="{{ site.cdn }}/files/2015/05/md-02.png{{ site.img }}">
 
 代码这里就不贴了, 需要的自己下载: 
 
