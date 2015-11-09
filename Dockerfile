@@ -5,8 +5,7 @@ RUN apt-get update \
     && apt-get install -y \
         nodejs \
         python-pygments \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/
+    && apt-get clean
 
 RUN gem install \
     github-pages \
